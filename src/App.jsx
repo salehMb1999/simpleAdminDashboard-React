@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <TopBar />
-      <div className="conatiner mx-auto flex items-center justify-between my-10 px-10">
+      <div className="conatiner mx-auto flex items-start gap-x-5 justify-between my-5 px-10">
         <Sidebar />
         {router}
       </div>

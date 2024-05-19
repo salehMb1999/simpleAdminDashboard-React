@@ -10,17 +10,18 @@ import DynamicFeedIcon from "@mui/icons-material/DynamicFeed";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ReportIcon from "@mui/icons-material/Report";
+import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <>
-      <div className="bg-slate-50 w-1/5 p-5 rounded-md">
+      <div className="bg-slate-50 flex-1 p-5 border-slate-200 border-2 rounded-md">
         <div className="mb-5">
           <p className="font-bold text-slate-400 opacity-70 mb-2">Dashboard</p>
           <ul className="ml-5">
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
-              <a className="w-full inline-block" href="#">
+              <Link className="w-full inline-block" to="/">
                 <LineStyleIcon /> Home
-              </a>
+              </Link>
             </li>
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
               <a className="w-full inline-block" href="#">
@@ -38,19 +39,19 @@ export default function Sidebar() {
           <p className="font-bold text-slate-400 opacity-70 mb-2">Quick Menu</p>
           <ul className="ml-5">
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
-              <a className="w-full inline-block" href="#">
+              <Link className="w-full inline-block" to="/users">
                 <PermIdentityIcon /> Users
-              </a>
+              </Link>
             </li>
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
-              <a className="w-full inline-block" href="#">
+              <Link className="w-full inline-block" to="/newUser">
                 <PermIdentityIcon /> New User
-              </a>
+              </Link>
             </li>
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
-              <a className="w-full inline-block" href="#">
+              <Link className="w-full inline-block" to="/products">
                 <StorefrontIcon /> Products
-              </a>
+              </Link>
             </li>
             <li className="px-3 py-1 text-slate-700 hover:bg-purple-100 rounded-md">
               <a className="w-full inline-block" href="#">
@@ -110,3 +111,4 @@ export default function Sidebar() {
     </>
   );
 }
+
