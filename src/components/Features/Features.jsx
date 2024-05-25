@@ -47,7 +47,7 @@ export default function Features() {
         <div>
           <Chart grid title="Month Sale" data={data} dataKey="sale" />
         </div>
-        <div className="flex justify-center items-center gap-x-8">
+        <div className="flex justify-center items-start gap-x-6">
           <SmallWd />
           <LargeWd />
         </div>
