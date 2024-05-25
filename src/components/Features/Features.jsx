@@ -2,6 +2,8 @@ import SouthIcon from "@mui/icons-material/South";
 import NorthIcon from "@mui/icons-material/North";
 import Chart from "../Chart/Chart";
 import xAxisData from "../../datas";
+import SmallWd from "../Widgets/SmallWd";
+import LargeWd from "../Widgets/LargeWd";
 const data = xAxisData;
 export default function Features() {
   return (
@@ -44,6 +46,10 @@ export default function Features() {
         </div>
         <div>
           <Chart grid title="Month Sale" data={data} dataKey="sale" />
+        </div>
+        <div className="flex justify-center items-center gap-x-8">
+          <SmallWd />
+          <LargeWd />
         </div>
       </div>
     </>

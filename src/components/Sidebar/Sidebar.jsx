@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <>
-      <div className="bg-slate-50 flex-1 p-5 border-slate-200 border-2 rounded-md">
+      <div className="bg-slate-50 flex-1 p-5 border-slate-200 sticky top-0 border-2 rounded-md">
         <div className="mb-5">
           <p className="font-bold text-slate-400 opacity-70 mb-2">Dashboard</p>
           <ul className="ml-5">
