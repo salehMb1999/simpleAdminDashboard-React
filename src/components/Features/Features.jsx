@@ -1,5 +1,8 @@
 import SouthIcon from "@mui/icons-material/South";
 import NorthIcon from "@mui/icons-material/North";
+import Chart from "../Chart/Chart";
+import xAxisData from "../../datas";
+const data = xAxisData;
 export default function Features() {
   return (
     <>
@@ -38,6 +41,9 @@ export default function Features() {
             </div>
             <p className="text-lg text-slate-400">Compared to last month</p>
           </div>
+        </div>
+        <div>
+          <Chart grid title="Month Sale" data={data} dataKey="sale" />
         </div>
       </div>
     </>
