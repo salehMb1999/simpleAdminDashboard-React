@@ -55,7 +55,35 @@ const transactions = [
     date: "1 Feb 2022",
     amount: "124",
     status: "Approved",
-    img: "/images/tom.jpg"
-  }
+    img: "/images/tom.jpg",
+    job: "Fullstack Developer"
+  },
+  {
+    id: 2,
+    customer: "Mona",
+    date: "2 Jun 2021",
+    amount: "1998",
+    status: "Approved",
+    img: "/images/margo.jpg",
+    job: "UI UX Designer"
+  },
+  {
+    id: 3,
+    customer: "saniya",
+    date: "20 Aug 2021",
+    amount: "260",
+    status: "Pending",
+    img: "/images/no.png",
+    job: "Seo"
+  },
+  {
+    id: 4,
+    customer: "Sadegh",
+    date: "2 Jun 2020",
+    amount: "13",
+    status: "Declined",
+    img: "/images/ronaldo.jpg",
+    job: "Backend Developer"
+  },
 ]
 export {xAxisData, transactions};
