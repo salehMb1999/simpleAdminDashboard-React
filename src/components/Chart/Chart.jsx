@@ -29,7 +29,7 @@ export default function Chart({ title, data, dataKey, grid }) {
 }
 Chart.propTypes = {
   title: propTypes.string.isRequired,
-  data: propTypes.string.isRequired,
+  data: propTypes.array.isRequired,
   dataKey: propTypes.string.isRequired,
-  grid: propTypes.string.isRequired,
+  grid: propTypes.bool.isRequired,
 };

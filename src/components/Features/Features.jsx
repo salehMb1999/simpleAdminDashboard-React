@@ -1,7 +1,8 @@
+import propTypes from "prop-types";
 import SouthIcon from "@mui/icons-material/South";
 import NorthIcon from "@mui/icons-material/North";
 import Chart from "../Chart/Chart";
-import xAxisData from "../../datas";
+import {xAxisData} from "../../datas";
 import SmallWd from "../Widgets/SmallWd";
 import LargeWd from "../Widgets/LargeWd";
 const data = xAxisData;
@@ -55,3 +56,7 @@ export default function Features() {
     </>
   );
 }
+
+Features.propTypes = {
+  data: propTypes.array,
+};
