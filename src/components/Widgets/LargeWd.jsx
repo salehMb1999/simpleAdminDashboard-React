@@ -1,13 +1,13 @@
 export default function LargeWd() {
   return (
-    <div className="shadow-md shadow-slate-400 p-8  rounded-lg w-2/3">
+    <div className="shadow-md shadow-slate-400 px-6 py-2  rounded-lg w-2/3">
       <h3 className="font-bold text-xl mb-5">Latest TransActions</h3>
       <table className="w-full">
         <tr className="flex justify-between mb-5 px-7">
           <th>Customer</th>
-          <div className="flex items-center gap-x-56">
+          <div className="flex items-center gap-x-52">
             <th>Date</th>
-            <div className="flex items-center gap-x-40">
+            <div className="flex items-center gap-x-36">
               <th>Amount</th>
               <th>Status</th>
             </div>
