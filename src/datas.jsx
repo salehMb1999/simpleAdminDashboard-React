@@ -48,4 +48,14 @@ const xAxisData = [
     sale: 110_000,
   },
 ];
-export default xAxisData;
+const transactions = [
+  {
+    id: 1,
+    customer: "Saber",
+    date: "1 Feb 2022",
+    amount: "124",
+    status: "Approved",
+    img: "/images/tom.jpg"
+  }
+]
+export {xAxisData, transactions};
