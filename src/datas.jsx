@@ -73,7 +73,7 @@ const transactions = [
     date: "20 Aug 2021",
     amount: "260",
     status: "Pending",
-    img: "/images/no.png",
+    img: "/images/geo.avif",
     job: "Seo"
   },
   {
